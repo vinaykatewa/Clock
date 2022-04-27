@@ -1,0 +1,27 @@
+/* .clockcontainer img{height: 83vh; width: 40vw;}
+.clockcontainer {display: flex; justify-content: center; align-items: center;} */
+/* If you don't put img in background then it will not be responsive   */
+
+/* set both height and width in vh or vw to make it reponsive      */
+
+body{background-color: rgb(196, 22, 135);}
+.clockcontainer{position: relative;height: 40vh; width: 40vh; background: url("clock.png") no-repeat;
+    background-size: 100%; margin: auto;}
+
+    #hour , #minute , #second { position: absolute; background: black; border-radius: 10px;
+                                transform-origin: bottom;} 
+
+
+
+    #hour{width:1%; height:18%;top: 32%;
+        left: 48.85%;  opacity: 0.8;}
+
+    #minute{width:1%; height:25%;margin-top:25.8%; 
+        margin-left:49.5%; opacity: 0.8;}
+
+    #second{width:1%; height:35%;margin-top: 15.4%;
+        margin-left:49.5%; opacity: 0.8;}
+    
+    
+
+    
